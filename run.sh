@@ -19,7 +19,7 @@ listen front
 
 backend reality
  mode tcp
- server ru 85.159.231.30:6000 send-proxy
+ server ru 65.109.221.248:5001 send-proxy
 
 frontend http_front
  bind *:80
